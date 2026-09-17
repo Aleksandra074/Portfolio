@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin — Aleksanrda Portfolio</title>
+<style>
+:root{--bg:#07111d;--card:#0d1d30;--line:#29405a;--text:#f4f2ee;--muted:#9ba9b8;--accent:#f1eee8}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.5}.wrap{width:min(900px,calc(100% - 32px));margin:0 auto;padding:60px 0 80px}h1{font-size:42px;margin:0 0 10px;letter-spacing:-1px}h2{margin:0 0 10px;font-size:22px}.lead{color:var(--muted);max-width:680px;margin:0 0 35px}.notice{border:1px solid var(--line);background:rgba(13,29,48,.75);padding:18px 20px;border-radius:14px;margin-bottom:28px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card{border:1px solid var(--line);background:var(--card);padding:20px;border-radius:14px}.card p{color:var(--muted);font-size:14px;min-height:42px}.btn{display:inline-block;padding:12px 15px;border:1px solid #60758c;border-radius:10px;color:var(--text);text-decoration:none;background:#12263d}.btn:hover{background:#18324e}.small{font-size:13px;color:var(--muted)}code{background:#06101b;padding:2px 6px;border-radius:5px}@media(max-width:650px){.grid{grid-template-columns:1fr}h1{font-size:34px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Portfolio Admin</h1>
+  <p class="lead">Эта страница предназначена для управления фотографиями. Сами изменения сохраняются в GitHub — поэтому посетители сайта не получают права редактирования.</p>
+  <div class="notice"><strong>Важно:</strong> кнопки ниже открывают GitHub. Для сохранения изменений GitHub потребует вход в аккаунт с правом записи в репозиторий <code>Aleksandra074/Portfolio</code>. Не передавай никому пароль или токены.</div>
+  <div class="grid">
+    <div class="card"><h2>Главное фото</h2><p>Замени фотографию в начале сайта.</p><a class="btn" href="https://github.com/Aleksandra074/Portfolio/edit/main/images/hero.jpg" target="_blank" rel="noopener">Изменить hero</a></div>
+    <div class="card"><h2>До</h2><p>Замени исходную фотографию в блоке Before / After.</p><a class="btn" href="https://github.com/Aleksandra074/Portfolio/edit/main/images/before.jpg" target="_blank" rel="noopener">Изменить «До»</a></div>
+    <div class="card"><h2>После</h2><p>Замени обработанную фотографию в блоке Before / After.</p><a class="btn" href="https://github.com/Aleksandra074/Portfolio/edit/main/images/after.jpg" target="_blank" rel="noopener">Изменить «После»</a></div>
+    <div class="card"><h2>Portrait / People</h2><p>Добавляй новые фотографии этой категории.</p><a class="btn" href="https://github.com/Aleksandra074/Portfolio/upload/main/images/people" target="_blank" rel="noopener">＋ Добавить фото</a></div>
+    <div class="card"><h2>Street / City</h2><p>Добавляй новые фотографии этой категории.</p><a class="btn" href="https://github.com/Aleksandra074/Portfolio/upload/main/images/street" target="_blank" rel="noopener">＋ Добавить фото</a></div>
+    <div class="card"><h2>Lifestyle / Outdoor</h2><p>Добавляй новые фотографии этой категории.</p><a class="btn" href="https://github.com/Aleksandra074/Portfolio/upload/main/images/lifestyle" target="_blank" rel="noopener">＋ Добавить фото</a></div>
+    <div class="card"><h2>Creative / Artistic</h2><p>Добавляй новые фотографии этой категории.</p><a class="btn" href="https://github.com/Aleksandra074/Portfolio/upload/main/images/creative" target="_blank" rel="noopener">＋ Добавить фото</a></div>
+    <div class="card"><h2>Before / After</h2><p>Добавляй дополнительные работы в эту категорию.</p><a class="btn" href="https://github.com/Aleksandra074/Portfolio/upload/main/images/beforeafter" target="_blank" rel="noopener">＋ Добавить фото</a></div>
+  </div>
+  <p class="small" style="margin-top:28px">После Commit changes подожди немного — GitHub Pages обновит сайт. Публичная страница портфолио не содержит кнопок редактирования.</p>
+</div>
+</body>
+</html>
